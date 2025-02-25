@@ -1,0 +1,110 @@
+/** style **/
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: aerial,sans-serif;
+}
+
+body {
+   background-color: #f4f4f4;
+   color: #333; 
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+h1,h2,h3 {
+    color: #4a90e2;
+}
+header {
+    background-color: #4a90e2;
+    padding: 20px 0;
+    color: white;
+}
+
+header.logo  h1 {
+text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li {
+margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero {
+    background:url("beauty.jpg") no-repeat center center /cover;
+    padding: 100px 20px;
+    color: white;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#services {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px rgba(red, green, blue, alpha);
+    width: 30%;
+}
+#about {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 20px 10px rgba (0 , 0 , 0, 0.1);
+}
+form {
+    max-width: 600px;
+    margin:  0 auto;
+}
+
+form label {
+display: block;
+margin-bottom: 5px;
+}
+
+form input , form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+footer {
+background-color: #4a90e2;
+color: white;
+text-align: center;
+padding: 20px;
+}
